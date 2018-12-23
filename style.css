@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 90%;
+    min-height: 600px;
+    background-image: url("images_gift/body_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.branches {
+    display: block;
+    width: 111%;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.blur-bg {
+    width: 111%;
+    min-height: 636px;
+    background-color: forestgreen;
+    opacity: 0.5;
+    z-index: 8;
+    background-size: 100%;
+    box-shadow: 0 0 25px 10px darkgreen inset;
+    margin-top: -180px;
+}
+
+.hide {
+    display: none;
+}
+
+#bear {
+    width: 300px;
+    position: absolute;
+    top: 48%;
+    filter: drop-shadow(15px 15px 2px rgba(05, 05, 05, 0.7));
+}
+
+
+.flake {
+    position: absolute;
+    filter: drop-shadow(5px 1px 3px rgba(255, 255, 255, 0.5));
+    transform-origin: center;
+    cursor: pointer;
+}
+
+.flake1 {
+    width: 90px;
+    height: 90px;
+}
+
+.flake2 {
+    width: 100px;
+    height: 100px;
+}
+
+.flake3 {
+    width: 80px;
+    height: 80px;
+}
+
+.flake:hover {
+    transition: 0.5s;
+    filter: drop-shadow(5px 5px 3px rgba(29, 71, 22, 0.7));
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    opacity: 0.8;
+    box-shadow: 0 0 12px 5px white inset;
+    transition: 0.8s;
+}
+
+.circle:hover {
+    transition: 1.2s;
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 1150px;
+    height: 635px;
+    z-index: 10;
+    filter: drop-shadow(15px 1px 2px rgba(15, 35, 25, 0.9));
+    transition: 0.9s;
+}
+
+@keyframes spin_right {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin_left {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes smooth_visible{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+
+.visible{
+    animation: smooth_visible 1s linear 0s;
+}
+
+
+.right {
+    animation: spin_right 40s linear 0s infinite;
+}
+
+.slow {
+    animation: spin_right 110s linear 0s infinite;
+}
+
+.left {
+    animation: spin_left 60s linear 0s infinite;
+}
+
+
+#flake1 {
+    top: 20%;
+    left: 2%;
+}
+
+#flake2 {
+    top: 31%;
+    left: 11%;
+}
+
+#flake3 {
+    top: 48%;
+    left: 24%;
+}
+
+#flake4 {
+    top: 50%;
+    left: 40%;
+}
+
+#flake5 {
+    top: 25%;
+    left: 35%;
+}
+
+#flake6 {
+    top: 80%;
+    left: 40%;
+}
+
+#flake7 {
+    top: 32%;
+    left: 53%;
+}
+
+#flake8 {
+    top: 70%;
+    left: 60%;
+}
+
+#flake9 {
+    top: 37%;
+    left: 66%;
+}
+
+#flake10 {
+    top: 80%;
+    left: 80%;
+}
+
+#flake11 {
+    top: 50%;
+    left: 80%;
+}
+
+#flake12 {
+    top: 25%;
+    left: 86%;
+}
+
+
+
