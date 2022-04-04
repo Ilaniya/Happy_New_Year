@@ -7,7 +7,7 @@
 body {
     margin: 0;
     width: 90%;
-    min-height: 600px;
+    min-height: 800px;
     background-image: url("images_gift/body_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,9 +22,10 @@ body {
 
 .blur-bg {
     width: 111%;
-    min-height: 636px;
+    min-height: 936px;
     background-color: forestgreen;
     opacity: 0.5;
+    transition: all 0.4s ease-out;
     z-index: 8;
     background-size: 100%;
     box-shadow: 0 0 25px 10px darkgreen inset;
